@@ -1,2 +1,1 @@
-# django-todo-app
-Django Todo App
+# Django Todo App
