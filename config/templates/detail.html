@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>
+        {{ todo_item.title }}
+    </h1>
+
+    <p>
+        {{ todo_item.description }}
+    </p>
+    
+    <small>
+        {{ todo_item.date }}
+    </small>
+
+    <br>
+    <br>
+
+    <a href="{% url 'delete' todo_item.id %}" class="btn btn-danger">
+        Delete
+    </a>
+
+    <a href="{% url 'update' todo_item.id %}" class="btn btn-info">
+        Update
+    </a>
+
+
+{% endblock %}

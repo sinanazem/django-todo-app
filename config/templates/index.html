@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+
+    <a href="{% url 'todo' %}" class="btn btn-info"> TODO </a>
+
+    {% if name == "sina" %}
+        <h3> not found {{name|capfirst}} </h3>
+    {% else %}
+        <h1> {{name|capfirst}} {{age}} </h1>
+        <h4> {{position|capfirst}} </h4>
+
+    {% endif %}
+    
+{% endblock %}

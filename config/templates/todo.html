@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %} Todo {% endblock %}
+
+{% block content %}
+
+    {% if request.user.is_authenticated %}
+        <h2>
+            Wellcome {{request.user.first_name | capfirst}} 🙂
+        </h2><br>
+
+        <a href="{% url 'create' %}" class="btn btn-info"> + Add New Todo </a>
+
+        {% for i in todo %}
+            <!-- <h3> {{i.title|capfirst}} </h3>
+            <p> {{i.description}} </p>
+            <small> {{i.date}} </small> -->
+            
+        
+            <a href="{% url 'details' i.id %}">
+
+                <h3> {{i.title|capfirst}} </h3>
+
+            </a>
+
+            <hr>
+        {% endfor %}
+
+        {% else %}
+            <h2>
+                Please Register or Login Account 🤬
+            </h2>
+
+    {% endif %}
+    
+{% endblock %}
