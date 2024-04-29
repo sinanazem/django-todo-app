@@ -28,7 +28,7 @@ A simple yet powerful Todo list application built with Django, designed to help 
 2. Navigate into the project directory:
 
     ```bash
-    cd django-todo-app
+    cd django-todo-app/config
     ```
 
 3. Build and start the Docker containers:
@@ -52,7 +52,7 @@ If you prefer not to use Docker, follow these steps:
 2. Navigate into the project directory:
 
     ```bash
-    cd django-todo-app
+    cd django-todo-app/config
     ```
 
 3. Install the required dependencies:
