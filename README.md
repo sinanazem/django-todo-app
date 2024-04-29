@@ -1,9 +1,11 @@
 
 # Django Todo App
 
-![Django Todo App Logo](https://cdni.iconscout.com/illustration/free/thumb/free-task-list-2080780-1753768.png)
 
+
+<img src="https://images.ctfassets.net/rz1oowkt5gyp/1IgVe0tV9yDjWtp68dAZJq/36ca564d33306d407dabe39c33322dd9/TaskManagement-hero.png" height=300>
 A simple yet powerful Todo list application built with Django, designed to help you organize your tasks efficiently.
+
 
 ## Features
 
