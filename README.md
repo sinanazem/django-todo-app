@@ -1,6 +1,3 @@
-Great! Let's update the README to include instructions for Docker usage:
-
----
 
 # Django Todo App
 
@@ -116,6 +113,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any inquiries or feedback, please contact [Sina Nazem](mailto:sinanazemm@gmail.com).
 
----
-
-This README.md includes instructions for both Docker and non-Docker usage. Feel free to adjust it according to your specific project needs!
